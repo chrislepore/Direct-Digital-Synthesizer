@@ -1,0 +1,28 @@
+module Hex_converter(count, HEX);
+input [3:0] count;
+output reg [0:6] HEX;
+
+always @ (count)
+begin
+	case (count) // HEX
+		0: HEX = 7'h01;
+		1: HEX = 7'h4F;
+		2: HEX = 7'h12;
+		3: HEX = 7'h06;
+		4: HEX = 7'h4C;
+		5: HEX = 7'h24;
+		6: HEX = 7'h20;      
+		7: HEX = 7'h0F;         
+		8: HEX = 7'h00;
+		9: HEX = 7'h04;		
+		4'hA: HEX = 7'h08;
+		4'hB: HEX = 7'h60;
+		4'hC: HEX = 7'h31;      
+		4'hD: HEX = 7'h42;
+		4'hE: HEX = 7'h30;
+		4'hF: HEX = 7'h38;
+		default: HEX = 7'h7F;
+	endcase
+end
+	
+endmodule 

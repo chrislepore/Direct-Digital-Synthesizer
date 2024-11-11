@@ -1,0 +1,12 @@
+module tuningWord_set(KEY0, SW, M)
+input KEY0;
+input [9:0] SW;
+output [27:0] M;
+reg [27:0] M;
+
+always @ (negedge KEY0)
+begin
+M <= #1 SW * 26843;
+end
+
+endmodule 

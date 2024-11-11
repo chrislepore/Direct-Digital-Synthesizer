@@ -1,0 +1,16 @@
+Partition Merge Status : Successful - Thu Nov 10 10:20:57 2022
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : project6
+Top-level Entity Name : project6
+Family : MAX 10
+Total logic elements : 1,226
+    Total combinational functions : 919
+    Dedicated logic registers : 668
+Total registers : 668
+Total pins : 70
+Total virtual pins : 0
+Total memory bits : 23,040
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

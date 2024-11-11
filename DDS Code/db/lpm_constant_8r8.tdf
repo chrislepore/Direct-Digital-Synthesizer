@@ -1,0 +1,46 @@
+--lpm_constant ENABLE_RUNTIME_MOD="YES" INSTANCE_NAME="NONE" LPM_CVALUE=000001A LPM_WIDTH=28 result
+--VERSION_BEGIN 20.1 cbx_lpm_constant 2020:06:05:12:04:51:SJ cbx_mgl 2020:06:05:12:11:10:SJ  VERSION_END
+
+
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
+--  Your use of Intel Corporation's design tools, logic functions 
+--  and other software and tools, and any partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Intel Program License 
+--  Subscription Agreement, the Intel Quartus Prime License Agreement,
+--  the Intel FPGA IP License Agreement, or other applicable license
+--  agreement, including, without limitation, that your use is for
+--  the sole purpose of programming logic devices manufactured by
+--  Intel and sold by Intel or its authorized distributors.  Please
+--  refer to the applicable agreement for further details, at
+--  https://fpgasoftware.intel.com/eula.
+
+
+FUNCTION sld_mod_ram_rom ()
+WITH ( CVALUE, IS_DATA_IN_RAM, IS_READABLE, NODE_NAME, NUMWORDS, SHIFT_COUNT_BITS, WIDTH_WORD, WIDTHAD)
+RETURNS ( data_write[27..0]);
+
+--synthesis_resources = sld_mod_ram_rom 1 
+SUBDESIGN lpm_constant_8r8
+( 
+	result[27..0]	:	output;
+) 
+VARIABLE 
+	mgl_prim1 : sld_mod_ram_rom
+		WITH (
+			CVALUE = "0000000000000000000000011010",
+			IS_DATA_IN_RAM = 0,
+			IS_READABLE = 0,
+			NODE_NAME = 0,
+			NUMWORDS = 1,
+			SHIFT_COUNT_BITS = 5,
+			WIDTH_WORD = 28,
+			WIDTHAD = 1
+		);
+
+BEGIN 
+	result[] = mgl_prim1.data_write[];
+END;
+--VALID FILE
