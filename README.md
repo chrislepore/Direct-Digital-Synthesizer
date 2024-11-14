@@ -21,7 +21,7 @@ This project involved designing an enhanced DDS system capable of generating var
 ### 1. Schematic Diagram
 The top-level schematic for the DDS system design outlines the main components, including the phase accumulator, tuning word set, waveform generator, and display logic.
 
-![DDS System Schematic](Images\Schematic.PNG)
+![DDS System Schematic](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Schematic.PNG)
 
 ### 2. Phase Accumulator
 The phase accumulator increments a 28-bit count by a tuning word. This count determines the 10-bit output to a DAC and produces waveform data.
@@ -37,13 +37,13 @@ Using SignalTap and a Keysight oscilloscope, the waveforms were captured and ver
 
 #### Images of Waveforms:
 - **Sawtooth Waveform**
-  ![Sawtooth Waveform](Images\Sawtooth Waveform.PNG)
+  ![Sawtooth Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Sawtooth%20Waveform.PNG)
 
 - **Sine Waveform**
-  ![Sine Waveform](Images\Sine Waveform.PNG)
+  ![Sine Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Sine%20Waveform.PNG)
 
 - **Triangle Waveform**
-  ![Triangle Waveform](Images\Triangle Waveform.PNG)
+  ![Triangle Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Triangle%20Waveform.PNG)
 
 ## How to Use
 
