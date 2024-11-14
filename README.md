@@ -36,14 +36,10 @@ Using a 2-bit input, the output waveform can be selected as a sine, triangle, or
 Using SignalTap and a Keysight oscilloscope, the waveforms were captured and verified for frequency accuracy.
 
 #### Images of Waveforms:
-- **Sawtooth Waveform**
-  ![Sawtooth Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Sawtooth%20Waveform.PNG)
 
-- **Sine Waveform**
-  ![Sine Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Sine%20Waveform.PNG)
-
-- **Triangle Waveform**
-  ![Triangle Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Triangle%20Waveform.PNG)
+![Sawtooth Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Sawtooth%20Waveform.PNG)
+![Sine Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Sine%20Waveform.PNG)
+![Triangle Waveform](https://raw.githubusercontent.com/chrislepore/Direct-Digital-Synthesizer/refs/heads/main/Images/Triangle%20Waveform.PNG)
 
 ## How to Use
 
